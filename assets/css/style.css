@@ -15,6 +15,29 @@ body {
     color: #ffffffb1;
 }
 
+.header-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-content h1 {
+    margin-right: 1rem;
+  }
+  
+  .header-content ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .header-content li {
+    margin-right: 1rem;
+  }
+  
+  .header-content a {
+    text-decoration: none;
+  }
+
 .header h1 {
     display:  display-outside;
     font-size: 60px;
@@ -32,14 +55,16 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header  ul {
     list-style-type: none;
+
 }
 
-.header div ul li {
+div.header  ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
 
 a {
     color: #ffffff;
@@ -197,4 +222,30 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+li{
+    list-style-type: none;
+}
+.ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.ul li{
+    margin-right:320px;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#aref{
+    font-size: 15px;
+    margin-top: 4.7rem;
+    text-align: center;
+}
+#Website{
+    font-family: 'Tilt Prism', cursive;
+    color: red;
 }
