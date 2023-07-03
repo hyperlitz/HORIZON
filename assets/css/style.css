@@ -141,12 +141,7 @@ p {
 }
 
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
+.search-engine-optimization h2, .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
