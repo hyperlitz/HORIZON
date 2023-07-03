@@ -1,4 +1,4 @@
- * {
+* {
     box-sizing: content-box;
     padding: 2;
     margin: 2;
@@ -14,6 +14,29 @@ body {
     background-color: #2a2a7c;
     color: #ffffffb1;
 }
+
+.header-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-content h1 {
+    margin-right: 1rem;
+  }
+  
+  .header-content ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .header-content li {
+    margin-right: 1rem;
+  }
+  
+  .header-content a {
+    text-decoration: none;
+  }
 
 .header h1 {
     display:  display-outside;
@@ -32,14 +55,16 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header  ul {
     list-style-type: none;
+
 }
 
-.header div ul li {
+div.header  ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
 
 a {
     color: #ffffff;
@@ -198,7 +223,6 @@ p {
 .footer h2 {
     font-size: 20px;
 }
-<<<<<<< HEAD
 li{
     list-style-type: none;
 }
@@ -225,5 +249,3 @@ li{
     font-family: 'Tilt Prism', cursive;
     color: red;
 }
-=======
->>>>>>> parent of ff05ae5 (Modified)
