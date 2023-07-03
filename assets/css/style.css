@@ -111,7 +111,15 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead, .benefit-brand, .benefit-cost {
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -138,7 +146,7 @@ p {
 }
 
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+.search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -146,8 +154,28 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    color: #ffffff;
+}
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family:  Calibri;
+    background-color: #0072bb;
+    color: #ffffff;
+}
 
 .search-engine-optimization img {
+    max-height: 200px;
+}
+.online-reputation-management img {
+    max-height: 200px;
+}
+.social-media-marketing img {
     max-height: 200px;
 }
 
